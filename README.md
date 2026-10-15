@@ -2,8 +2,18 @@
 
 I'm a master's student in **Information Systems** at the **Karlsruhe Institute of Technology (KIT)**.
 I work on machine learning for autonomous driving, LLM-based information extraction and Bayesian statistics.
+Next to my studies I am building [MatchCrew](https://github.com/adriannoahwimmer/matchcrew-demo), my own marketplace app for amateur basketball.
 
 ## Selected projects
+
+### Own product
+
+- **[matchcrew-demo](https://github.com/adriannoahwimmer/matchcrew-demo)**: MatchCrew, a marketplace app that finds substitutes for game-day duties at the scorer's table in amateur basketball, starting in Karlsruhe.
+  I own the product: requirements, business rules, architecture decisions and the acceptance test of every package on a real phone.
+  The code is written agentically with Claude Code in a fixed workflow of plan, approval, pull request and merge on green CI.
+  All MVP features except push notifications are done, and a closed beta is in preparation.
+  The repo shows screenshots, the architecture and the roadmap; the [landing page](https://adriannoahwimmer.github.io/matchcrew-demo/) has a click demo.
+  *Claude Code, Expo, React Native, TypeScript, Supabase*
 
 ### Autonomous driving
 
@@ -38,8 +48,6 @@ I work on machine learning for autonomous driving, LLM-based information extract
 
 ### Other
 
-- **[matchcrew-demo](https://github.com/adriannoahwimmer/matchcrew-demo)**: Public demo of MatchCrew, an app in development that finds substitutes for scorer's-table duties at basketball games in Karlsruhe.
-  The demo is [live here](https://adriannoahwimmer.github.io/matchcrew-demo/#demo).
 - **[graph-algorithms-2022](https://github.com/adriannoahwimmer/graph-algorithms-2022)**: Graph algorithms from my exchange semester at Tampere University, Finland (2022): BFS shortest-path trees, Floyd–Warshall and minimum spanning trees.
   *Python*
 
