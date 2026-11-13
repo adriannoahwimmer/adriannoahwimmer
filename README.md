@@ -7,9 +7,9 @@ Next to that I am building [MatchCrew](https://github.com/adriannoahwimmer/match
 
 ## How I build software
 
-I build software agentically. AI coding agents, mainly Claude Code, write the code; I don't write it by hand and I don't review it line by line.
-My part is everything around the code: the problem, requirements and business rules, architecture decisions, the workflow the agents follow (plan, approval, pull request, merge on green CI) and the acceptance test of every change in the running product.
-Quality comes from automated tests, CI checks and my own testing, not from reading diffs.
+I learned the classic way: my bachelor's thesis, seminars and lab courses are hand-written in Python, PyTorch, R and C#.
+Today I build agentic-first. Claude Code writes the code; I own the product, the requirements, the architecture decisions and the engineering workflow around it: planned changes, pull requests, CI gates and an acceptance test of every change in the running product.
+That is how MatchCrew went from first commit to a closed test on Google Play in four weeks.
 
 ## Selected projects
 
@@ -62,6 +62,6 @@ Quality comes from automated tests, CI checks and my own testing, not from readi
 
 ## Tools
 
-Claude Code · GitHub Actions · Supabase · Expo
+Python · PyTorch · R · C# / Unity
 
-Stacks in my projects: Python · PyTorch · R · TypeScript · React Native · C# / Unity
+Agentic stack: Claude Code · TypeScript · Expo / React Native · Supabase · GitHub Actions
