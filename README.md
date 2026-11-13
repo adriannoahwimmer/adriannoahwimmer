@@ -2,7 +2,14 @@
 
 I'm a master's student in **Information Systems** at the **Karlsruhe Institute of Technology (KIT)**.
 I work on machine learning for autonomous driving, LLM-based information extraction and Bayesian statistics.
-Next to my studies I am building [MatchCrew](https://github.com/adriannoahwimmer/matchcrew-demo), my own marketplace app for amateur basketball.
+Since November 2026 I am a working student in software development at [askui](https://www.askui.com) in Karlsruhe.
+Next to that I am building [MatchCrew](https://github.com/adriannoahwimmer/matchcrew-demo), my own marketplace app for amateur basketball.
+
+## How I build software
+
+I build software agentically. AI coding agents, mainly Claude Code, write the code; I don't write it by hand and I don't review it line by line.
+My part is everything around the code: the problem, requirements and business rules, architecture decisions, the workflow the agents follow (plan, approval, pull request, merge on green CI) and the acceptance test of every change in the running product.
+Quality comes from automated tests, CI checks and my own testing, not from reading diffs.
 
 ## Selected projects
 
@@ -11,7 +18,7 @@ Next to my studies I am building [MatchCrew](https://github.com/adriannoahwimmer
 - **[matchcrew-demo](https://github.com/adriannoahwimmer/matchcrew-demo)**: MatchCrew, a marketplace app that finds substitutes for game-day duties at the scorer's table in amateur basketball, starting in Karlsruhe.
   I own the product: requirements, business rules, architecture decisions and the acceptance test of every package on a real phone.
   The code is written agentically with Claude Code in a fixed workflow of plan, approval, pull request and merge on green CI.
-  All MVP features except push notifications are done, and a closed beta is in preparation.
+  All MVP features including push notifications are done; the Android app has been in a closed test on Google Play since October 2026, with the public release next.
   The repo shows screenshots, the architecture and the roadmap; the [landing page](https://adriannoahwimmer.github.io/matchcrew-demo/) has a click demo.
   *Claude Code, Expo, React Native, TypeScript, Supabase*
 
@@ -48,9 +55,13 @@ Next to my studies I am building [MatchCrew](https://github.com/adriannoahwimmer
 
 ### Other
 
+- **[dhl-benachrichtigungscode-decoder](https://github.com/adriannoahwimmer/dhl-benachrichtigungscode-decoder)**: Explains how the DHL notification code (Benachrichtigungscode) is built and computes it in the browser, with a Python reference and test vectors.
+  *JavaScript, Python*
 - **[graph-algorithms-2022](https://github.com/adriannoahwimmer/graph-algorithms-2022)**: Graph algorithms from my exchange semester at Tampere University, Finland (2022): BFS shortest-path trees, Floyd–Warshall and minimum spanning trees.
   *Python*
 
 ## Tools
 
-Python · PyTorch · R · C# / Unity
+Claude Code · GitHub Actions · Supabase · Expo
+
+Stacks in my projects: Python · PyTorch · R · TypeScript · React Native · C# / Unity
