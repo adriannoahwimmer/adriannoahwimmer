@@ -1,13 +1,14 @@
 # Hi, I'm Adrian
 
-I'm a master's student in **Information Systems** at the **Karlsruhe Institute of Technology (KIT)** and a working student in software development at [askui](https://www.askui.com).
+I'm a master's student in **Information Systems** at the **Karlsruhe Institute of Technology (KIT)**.
 I work on machine learning for autonomous driving, LLM-based information extraction and statistics for large, high-dimensional data: copulas, multivariate methods and Bayesian statistics.
+I work as a software developer at [askui](https://www.askui.com), a Karlsruhe startup building vision agents.
 Next to that I am building [MatchCrew](https://github.com/adriannoahwimmer/matchcrew-demo), my own marketplace app for amateur basketball.
 
 ## How I build software
 
-I design the system and let coding agents build it.
-My work is the architecture: data model, security rules, architecture decision records and the workflow the agents run in, from plan and review to pull request and CI gates.
+Agentic engineering with a human in the loop: I design the system, coding agents build it.
+My part is architecture and context engineering: data model, security rules, architecture decision records and a spec-driven research → plan → implement workflow in the style of [HumanLayer](https://github.com/humanlayer/humanlayer), with human approval gates, pull requests and CI as quality gates.
 With this setup MatchCrew went from first commit to a closed test on Google Play in four weeks, alongside the exam period.
 
 ## Selected projects
@@ -23,7 +24,7 @@ With this setup MatchCrew went from first commit to a closed test on Google Play
 
 ### Autonomous driving
 
-- **Ongoing:** a research lab course at KIT that benchmarks monocular 3D object detection from roadside infrastructure cameras (BEVHeight, CoBEV, HeightFormer and others) across six datasets.
+- **Ongoing:** a team research project at KIT that benchmarks monocular 3D object detection from roadside infrastructure cameras (BEVHeight, CoBEV, HeightFormer and others) across six datasets.
 - **[maptr-aerial-fusion](https://github.com/adriannoahwimmer/maptr-aerial-fusion)**: Bachelor's thesis at KIT and FZI (2024/25).
   A transformer network fuses aerial images with the vehicle's camera images to build HD maps online.
   The thesis extends MapTR and improves its mAP on nuScenes from 0.470 to 0.484.
